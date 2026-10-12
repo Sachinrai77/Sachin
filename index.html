@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin Rai · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Home.css" />
+</head>
+<body>
+  <!-- ========== BACKGROUND (Haikei inspired waves) ========== -->
+  <div class="wave-background" aria-hidden="true">
+    <svg class="wave-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#859d91" stop-opacity="0.22" />
+          <stop offset="45%" stop-color="#b7c4b5" stop-opacity="0.32" />
+          <stop offset="100%" stop-color="#44554a" stop-opacity="0.18" />
+        </linearGradient>
+        <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#b7c4b5" stop-opacity="0.28" />
+          <stop offset="60%" stop-color="#44554a" stop-opacity="0.14" />
+          <stop offset="100%" stop-color="#859d91" stop-opacity="0.22" />
+        </linearGradient>
+        <linearGradient id="waveGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#44554a" stop-opacity="0.10" />
+          <stop offset="50%" stop-color="#859d91" stop-opacity="0.18" />
+          <stop offset="100%" stop-color="#b7c4b5" stop-opacity="0.16" />
+        </linearGradient>
+      </defs>
+      <path d="M0,380 C280,320 400,480 720,420 C1040,360 1200,460 1440,400 L1440,900 L0,900 Z" fill="url(#waveGrad1)" />
+      <path d="M0,460 C300,390 500,540 800,470 C1100,400 1300,510 1440,440 L1440,900 L0,900 Z" fill="url(#waveGrad2)" />
+      <path d="M0,560 C240,500 420,620 720,550 C1020,480 1240,590 1440,520 L1440,900 L0,900 Z" fill="url(#waveGrad3)" />
+    </svg>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Sachin Rai</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="status-pill">
+            <span class="status-dot"></span> Open to internships &amp; freelance work
+          </span>
+          <h1 class="hero-title">
+            Designing intuitive<br />
+            digital experiences with <span class="highlight">care</span>.
+          </h1>
+          <p class="hero-description">
+            I'm Sachin Rai — a BCA student at Poornima University with a strong interest in web development, UI/UX design, and front-end technologies. I recently completed a UI/UX design internship at LinkStatic Techno.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="#about" class="btn btn-secondary">About Me</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">03</span>
+              <span class="stat-label">Months Internship</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">06+</span>
+              <span class="stat-label">Design Skills</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2027</span>
+              <span class="stat-label">BCA Graduation</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-circle">
+            <span>SR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TICKER ========== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span>UI/UX Design</span><span>Figma</span><span>Wireframing</span><span>Prototyping</span><span>UX Research</span><span>Front-End</span><span>Design Systems</span>
+        </div>
+        <div class="ticker-group">
+          <span>UI/UX Design</span><span>Figma</span><span>Wireframing</span><span>Prototyping</span><span>UX Research</span><span>Front-End</span><span>Design Systems</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">01 — About</p>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A little bit about my journey and what I do.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="about-photo">
+              <span>SR</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a BCA (General) student at <strong>Poornima University</strong> with a strong interest in web development, UI/UX design, and front-end technologies. I recently completed a 3-month UI/UX Design internship at <strong>LinkStatic Techno</strong>, a specialized static ISP and proxy service provider.
+            </p>
+            <p>
+              During my internship, I designed user interfaces and improved user experiences for web-based proxy and streaming services. I created wireframes, prototypes, and user flows using Figma, and collaborated with the development team to ensure design feasibility and smooth handoff.
+            </p>
+            <p>
+              I'm passionate about building clean, accessible, and user-friendly interfaces. Currently based in Jaipur, Rajasthan, India.
+            </p>
+            <ul class="about-highlights">
+              <li><span class="dot"></span> Based in Jaipur, India</li>
+              <li><span class="dot"></span> BCA Student at Poornima University</li>
+              <li><span class="dot"></span> UX Design Intern at LinkStatic Techno</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">02 — Skills</p>
+          <h2 class="section-title">Skills &amp; Tools</h2>
+          <p class="section-subtitle">Technologies and skills I work with.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>Web Interface Design</h3>
+            <p>Designing clean and modern web interfaces.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🖌️</div>
+            <h3>User Interface Design</h3>
+            <p>Creating intuitive and accessible UI components.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📐</div>
+            <h3>Figma</h3>
+            <p>Wireframing, prototyping, and design systems.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🧩</div>
+            <h3>Wireframing</h3>
+            <p>Low and high-fidelity wireframes for web apps.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>Prototyping</h3>
+            <p>Interactive prototypes for user testing.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🔍</div>
+            <h3>UX Research</h3>
+            <p>Applying Google UX Design principles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WORK / PROJECTS ========== -->
+    <section id="work" class="work-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">03 — Work</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">A selection of recent design and development work.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="card-media">
+              <div class="mock-wave"></div>
+            </div>
+            <div class="card-content">
+              <span class="card-index">01</span>
+              <h3>Web Proxy &amp; Streaming UI</h3>
+              <p>Designed user interfaces and improved user experiences for web-based proxy and streaming services at LinkStatic Techno.</p>
+              <div class="card-tags">
+                <span>UI/UX</span>
+                <span>Figma</span>
+              </div>
+              <a href="#" class="card-link">View Project →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="card-media">
+              <div class="mock-blob"></div>
+            </div>
+            <div class="card-content">
+              <span class="card-index">02</span>
+              <h3>Wireframes &amp; Prototypes</h3>
+              <p>Created wireframes, prototypes, and user flows using Figma. Collaborated with the development team for smooth handoff.</p>
+              <div class="card-tags">
+                <span>Wireframing</span>
+                <span>Prototyping</span>
+              </div>
+              <a href="#" class="card-link">View Project →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="card-media">
+              <div class="mock-grid"></div>
+            </div>
+            <div class="card-content">
+              <span class="card-index">03</span>
+              <h3>Google UX Principles</h3>
+              <p>Applied Google UX Design principles to enhance website usability and layout for better user engagement.</p>
+              <div class="card-tags">
+                <span>UX Research</span>
+                <span>Usability</span>
+              </div>
+              <a href="#" class="card-link">View Project →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">04 — Journey</p>
+          <h2 class="section-title">Experience &amp; Education</h2>
+          <p class="section-subtitle">My professional and academic journey.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">May 2026 – July 2026</span>
+              <h3>UX Design Intern</h3>
+              <p class="timeline-company">LinkStatic Techno · Jaipur, Rajasthan, India</p>
+              <p>Completed a 3-month UI/UX Design internship at LinkStatic, a specialized static ISP and proxy service provider. Designed user interfaces and improved user experiences for web-based proxy and streaming services. Created wireframes, prototypes, and user flows using Figma. Collaborated with the development team to ensure design feasibility and smooth handoff. Applied Google UX Design principles to enhance website usability and layout.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">April 2024 – July 2027</span>
+              <h3>BCA (General)</h3>
+              <p class="timeline-company">Poornima University</p>
+              <p>Currently pursuing a Bachelor of Computer Applications with a focus on web development, UI/UX design, and front-end technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- ========== SOCIAL LINKS ========== -->
+    <section class="social-links-section">
+      <div class="container">
+        <div class="social-links-inner">
+          <a href="mailto:sachin66375@gmail.com" aria-label="Email" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+          <a href="https://github.com/Sachinrai77?tab=repositories" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sachin-rai-101083318?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Sachin Rai — built with care.</p>
+      <p class="footer-note">
+        Background inspired by <a href="https://app.haikei.app" target="_blank" rel="noopener">Haikei</a>
+        · palette from <a href="https://www.realtimecolors.com/?colors=e6ebe5-121612-b7c4b5-44554a-859d91&fonts=Inter-Inter" target="_blank" rel="noopener">Realtime Colors</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
